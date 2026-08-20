@@ -1,39 +1,20 @@
-# USV Surveying Hub — CHCNAV APACHE
+# USV Surveying Hub — v3
 
-Static website untuk GitHub Pages.
+Versi katalog statis untuk GitHub Pages.
 
 ## Isi
-- APACHE 3 Pro
-- APACHE 4 Pro
-- APACHE 6
-- Components & payload
-- ADCP / MBES / NORBIT MBES
-- Manual, datasheet, video
+- APACHE 3 Pro, APACHE 4 Pro, APACHE 6
+- Foto produk riil dari sumber web
+- Components: D270, RS3600D, NORBIT WBMS/iWBMS
+- Manual & video
 - CTA Hubungi PT Hidronav Tehnikatama
 
 ## Upload ke GitHub Pages
-1. Extract ZIP.
-2. Upload `index.html`, `styles.css`, `script.js`, dan folder/file lain ke root repository.
+1. Ekstrak ZIP.
+2. Upload `index.html`, `styles.css`, `script.js` ke repository.
 3. Commit changes.
-4. GitHub → Settings → Pages.
-5. Source: Deploy from a branch → `main` → `/ (root)` → Save.
-6. Tunggu deployment selesai.
+4. Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+5. Buka URL GitHub Pages kamu.
 
-## Catatan foto
-Versi ini memakai foto produk yang tersedia di web agar website langsung terlihat seperti katalog produk nyata. Beberapa foto berasal dari halaman distributor/technical publication; tautan sumber produk resmi CHCNAV/NORBIT tetap disediakan pada kartu produk.
-
-## Sumber utama
-CHCNAV:
-https://geospatial.chcnav.com/products
-https://geospatial.chcnav.com/products/chcnav-Apache-3-Pro
-https://geospatial.chcnav.com/products/chcnav-apache-4-pro
-https://geospatial.chcnav.com/products/chcnav-Apache-6
-https://geospatial.chcnav.com/products/chcnav-RS600-1200-ADCP
-https://support.chcnav.com/portal/en/kb/marine/usv
-
-Hidronav:
-https://hidronav.co.id/
-https://hidronav.co.id/contact-us/
-
-NORBIT:
-https://norbit.com/
+Catatan:
+Foto pada katalog menggunakan URL gambar publik dari halaman/sumber produk. Jika ingin website tetap berjalan tanpa internet atau tanpa ketergantungan hotlink, simpan foto-foto tersebut ke folder `assets/` lalu ubah `src` pada `index.html`.

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#f6a300"/><stop offset="1" stop-color="#ffbd2e"/></linearGradient></defs>
+<rect width="500" height="300" fill="#f7fafc"/>
+<ellipse cx="250" cy="235" rx="180.0" ry="22" fill="#dce7eb"/>
+<path d="M 105.0 150 Q250 92 395.0 150 L 370.0 205 Q250 240 130.0 205 Z" fill="url(#g)" stroke="#162f3e" stroke-width="6"/>
+<path d="M 130.0 205 Q250 245 370.0 205" fill="none" stroke="#e47700" stroke-width="8"/>
+<rect x='190' y='125' width='140' height='45' rx='18' fill='#f5a400'/><circle cx='230' cy='150' r='20' fill='#162f3e'/><rect x='220' y='132' width='20' height='20' rx='6' fill='#d9e4e8'/>
+<rect x="245" y="76" width="8" height="58" rx="4" fill="#5d6970"/>
+<rect x="175" y="92" width="7" height="55" rx="3" fill="#5d6970"/>
+<rect x="325" y="92" width="7" height="55" rx="3" fill="#5d6970"/>
+<circle cx="249" cy="72" r="7" fill="#162f3e"/>
+<path d="M 110.0 170 L 90.0 165" stroke="#162f3e" stroke-width="6"/>
+<path d="M 390.0 170 L 410.0 165" stroke="#162f3e" stroke-width="6"/>
+<text x="250" y="265" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#0b2d45">APACHE 4 PRO</text>
+<text x="250" y="286" text-anchor="middle" font-family="Arial" font-size="11" fill="#5b7180">Multi-purpose • ADCP / MBES platform</text>
+</svg>

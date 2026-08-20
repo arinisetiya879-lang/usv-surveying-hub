@@ -1,28 +1,20 @@
-# USV Surveying Hub — GitHub Pages
+# USV Surveying Hub — v2
 
-Website static untuk informasi CHCNAV Apache USV.
+Static GitHub Pages website for CHCNAV APACHE 3 Pro, APACHE 4 Pro and APACHE 6.
 
-## Struktur
-- `index.html` — halaman utama
-- `styles.css` — desain/responsive layout
-- `script.js` — interaksi menu mobile
-- `assets/` — tempat PDF, gambar, brochure, dan aset lain
+## Upload
+Keep this structure in the repository root:
 
-## Menambahkan Manual Book
-Masukkan file PDF ke:
-`assets/manual-apache.pdf`
+- index.html
+- styles.css
+- script.js
+- assets/models/*.svg
+- assets/components/*.svg
 
-Jika nama file berbeda, ubah link pada `index.html`.
+## Notes
+The model and component graphics in this starter package are clean vector illustrations so the site works offline. Replace the SVG files in `assets/models/` with your own official/product photographs if you want the exact equipment photos.
 
-## Menambahkan gambar produk
-Kamu dapat menambahkan JPG/PNG ke folder `assets/`, lalu mengganti bagian `.product-visual` di `index.html`.
+Product facts and resource links are based on CHCNAV's official product/support pages. Always verify the latest datasheet before technical use.
 
 ## GitHub Pages
-1. Buat repository bernama `usv-surveying-hub`.
-2. Upload semua file/folder ini.
-3. GitHub → Settings → Pages.
-4. Pilih source dari branch `main` dan folder `/ (root)` jika tersedia.
-5. Buka URL:
-`https://USERNAME.github.io/usv-surveying-hub/`
-
-Website ini sengaja dibuat tanpa backend/database sehingga dapat dijalankan sebagai static site.
+Settings → Pages → Deploy from a branch → main → /(root)

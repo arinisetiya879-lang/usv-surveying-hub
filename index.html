@@ -1,200 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="USV Surveying Hub — pusat informasi CHCNAV APACHE 3 Pro, APACHE 4 Pro, APACHE 6, payload dan resources survei hidrografi.">
-<title>USV Surveying Hub | CHCNAV Apache</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>USV Surveying Hub — CHCNAV APACHE</title>
+  <meta name="description" content="Katalog CHCNAV APACHE 3 Pro, APACHE 4 Pro, APACHE 6, payload, manual, video, dan kontak PT Hidronav Tehnikatama.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="nav">
+<header class="topbar">
   <a class="brand" href="#home"><span class="brand-mark">USV</span><span>Surveying Hub</span></a>
   <nav>
-    <a href="#fleet">Apache</a>
+    <a href="#apache">APACHE</a>
     <a href="#components">Components</a>
     <a href="#resources">Resources</a>
+    <a class="nav-cta" href="#contact">Hubungi Hidronav</a>
   </nav>
-  <button class="menu" aria-label="Buka menu">☰</button>
 </header>
 
 <main id="home">
 <section class="hero">
   <div class="hero-copy">
-    <span class="eyebrow">HYDROGRAPHIC SURVEYING • CHCNAV</span>
-    <h1>USV Surveying<br><em>Hub</em></h1>
-    <p>Pusat informasi praktis untuk <strong>APACHE 3 Pro, APACHE 4 Pro, dan APACHE 6</strong> — mulai dari platform, komponen payload, manual, video, hingga sumber resmi CHCNAV.</p>
-    <div class="actions">
-      <a class="btn primary" href="#fleet">Explore Apache <span>↗</span></a>
-      <a class="btn ghost" href="#resources">Resources</a>
+    <p class="eyebrow">HYDROGRAPHIC SURVEYING · CHCNAV</p>
+    <h1>CHCNAV<br><span>APACHE</span><br>USV</h1>
+    <p class="lead">Katalog praktis untuk APACHE 3 Pro, APACHE 4 Pro, dan APACHE 6 — lengkap dengan payload, dokumentasi, video, dan akses ke distributor Indonesia.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#apache">Lihat APACHE</a>
+      <a class="btn" href="#resources">Manual & Video</a>
     </div>
-    <div class="hero-tags"><span>Autonomous</span><span>Bathymetry</span><span>Hydrology</span><span>3D Mapping</span></div>
+    <div class="chips">
+      <span>Bathymetry</span><span>Hydrology</span><span>ADCP</span><span>MBES</span><span>Autonomous Survey</span>
+    </div>
   </div>
   <div class="hero-visual">
-    <div class="radar r1"></div><div class="radar r2"></div>
-    <div class="hero-card">
-      <img src="apache-6.svg" alt="Ilustrasi APACHE 6">
-      <div class="float-tag top">NORBIT READY</div>
-      <div class="float-tag bottom">SURVEY READY</div>
+    <img src="https://www.unmannedsystemstechnology.com/wp-content/uploads/2021/05/Apache-6-USV-preparation-survey-chcnav.jpg" alt="CHCNAV APACHE 6 USV">
+    <div class="image-label">APACHE 6 · REAL PRODUCT PHOTO</div>
+  </div>
+</section>
+
+<section class="intro">
+  <div>
+    <p class="eyebrow">PILIH PLATFORM</p>
+    <h2>Three APACHE platforms.<br>Different survey needs.</h2>
+  </div>
+  <p>Gunakan bagian ini sebagai katalog ringkas sebelum masuk ke manual atau menghubungi tim Hidronav untuk konfigurasi payload.</p>
+</section>
+
+<section id="apache" class="products">
+  <article class="product-card featured">
+    <div class="product-image">
+      <img src="https://www.maverickdrone.com/cdn/shop/files/A3Pro-OnTheCase_3.png?v=1754342416" alt="CHCNAV APACHE 3 Pro">
+    </div>
+    <div class="product-body">
+      <span class="tag">SINGLE BEAM</span>
+      <h3>APACHE 3 Pro</h3>
+      <p>USV kompak untuk autonomous bathymetric survey di danau, sungai, reservoir, dan area perairan dangkal.</p>
+      <div class="specs"><div><b>7 m/s</b><small>max speed</small></div><div><b>35 kg</b><small>payload</small></div><div><b>10 cm</b><small>draft</small></div><div><b>10 h</b><small>battery*</small></div></div>
+      <a class="text-link" href="https://geospatial.chcnav.com/products/chcnav-Apache-3-Pro" target="_blank">Official CHCNAV →</a>
+    </div>
+  </article>
+
+  <article class="product-card">
+    <div class="product-image">
+      <img src="https://www.chcnav.com/dam/jcr%3A0177bb9b-9d0d-4fd4-9bbf-fdbf210b9b37/apache4-pro-usv-platform.jpg" alt="CHCNAV APACHE 4 Pro">
+    </div>
+    <div class="product-body">
+      <span class="tag">MULTI-PURPOSE</span>
+      <h3>APACHE 4 Pro</h3>
+      <p>Platform serbaguna untuk hydrographic dan hydrological survey, kompatibel dengan berbagai ADCP serta MBES.</p>
+      <div class="specs"><div><b>6.5 m/s</b><small>max speed</small></div><div><b>50 kg</b><small>payload</small></div><div><b>8.6 cm</b><small>draft</small></div><div><b>9.8 h</b><small>battery*</small></div></div>
+      <a class="text-link" href="https://geospatial.chcnav.com/products/chcnav-apache-4-pro" target="_blank">Official CHCNAV →</a>
+    </div>
+  </article>
+
+  <article class="product-card">
+    <div class="product-image">
+      <img src="https://www.unmannedsystemstechnology.com/wp-content/uploads/2021/05/Apache-6-USV-preparation-survey-chcnav.jpg" alt="CHCNAV APACHE 6">
+    </div>
+    <div class="product-body">
+      <span class="tag">MULTIBEAM</span>
+      <h3>APACHE 6</h3>
+      <p>USV tri-hull untuk high-resolution 3D bathymetry, underwater object localization, dan offshore construction.</p>
+      <div class="specs"><div><b>6 m/s</b><small>max speed</small></div><div><b>60 kg</b><small>payload</small></div><div><b>7.5 cm</b><small>draft</small></div><div><b>6 h</b><small>battery*</small></div></div>
+      <a class="text-link" href="https://geospatial.chcnav.com/products/chcnav-Apache-6" target="_blank">Official CHCNAV →</a>
+    </div>
+  </article>
+</section>
+
+<section id="components" class="section">
+  <div class="section-head">
+    <div><p class="eyebrow">PAYLOAD & COMPONENTS</p><h2>Komponen untuk workflow survei</h2></div>
+    <p>ADCP, MBES, dan NORBIT MBES ditampilkan sebagai kategori yang berbeda agar konfigurasi alat lebih mudah dipahami.</p>
+  </div>
+
+  <div class="component-grid">
+    <article class="component-card photo-card">
+      <img src="https://www.cosola.com/images/com_hikashop/upload/120-d.png" alt="CHCNAV RiverStar ADCP">
+      <div><span>ADCP</span><h3>CHCNAV RiverStar</h3><p>Untuk pengukuran profil kecepatan dan debit air. RS-600/RS-1200 menggunakan konfigurasi 5-beam.</p><a href="https://geospatial.chcnav.com/products/chcnav-RS600-1200-ADCP" target="_blank">Lihat produk →</a></div>
+    </article>
+
+    <article class="component-card photo-card">
+      <div class="placeholder-icon">MBES</div>
+      <div><span>MBES</span><h3>Multibeam Echosounder</h3><p>Payload multibeam untuk pemetaan batimetri dan 3D bawah air. APACHE 4 Pro mendukung CHCNAV HQ-400.</p><a href="https://geospatial.chcnav.com/products/chcnav-apache-4-pro" target="_blank">Lihat konfigurasi →</a></div>
+    </article>
+
+    <article class="component-card photo-card">
+      <img src="https://norbit.com/media/WBMS_2.png" alt="NORBIT iWBMS multibeam sonar">
+      <div><span>NORBIT MBES</span><h3>NORBIT iWBMS</h3><p>Multibeam compact untuk high-resolution bathymetry dan pemetaan seabed.</p><a href="https://norbit.com/products/iwbms/" target="_blank">Official NORBIT →</a></div>
+    </article>
+
+    <div class="component-list">
+      <div><b>01</b><span><strong>GNSS Dual Antenna</strong><small>Positioning & heading</small></span></div>
+      <div><b>02</b><span><strong>360° Camera</strong><small>Visual monitoring</small></span></div>
+      <div><b>03</b><span><strong>Communication Antenna</strong><small>Remote & data link</small></span></div>
+      <div><b>04</b><span><strong>Obstacle Avoidance</strong><small>Safety navigation</small></span></div>
+      <div><b>05</b><span><strong>Navigation Light</strong><small>Vessel indication</small></span></div>
+      <div><b>06</b><span><strong>Battery Module</strong><small>Mission endurance</small></span></div>
+      <div><b>07</b><span><strong>Payload Mount</strong><small>Sensor integration</small></span></div>
+      <div><b>08</b><span><strong>Propulsion System</strong><small>Thrust & maneuvering</small></span></div>
     </div>
   </div>
 </section>
 
-<section class="intro section">
-  <div class="section-kicker">THE FLEET</div>
-  <div class="section-head"><h2>Tiga platform, tiga karakter survei.</h2><p>Pilih platform berdasarkan kedalaman, payload, dan jenis pekerjaan hidrografi yang kamu kerjakan.</p></div>
-  <div class="fleet" id="fleet">
-    <article class="model-card" data-model="3">
-      <div class="model-image"><img src="apache-3-pro.svg" alt="APACHE 3 Pro"></div>
-      <div class="model-body"><div class="model-label">COMPACT / SINGLE-BEAM</div><h3>APACHE 3 Pro</h3><p>Platform ringkas untuk survei batimetri perairan dangkal dengan GNSS RTK + INS dan single-beam echosounder.</p>
-      <div class="stats"><span><b>7 m/s</b> max speed</span><span><b>35 kg</b> payload</span><span><b>10 cm</b> draft</span></div>
-      <a href="https://geospatial.chcnav.com/products/chcnav-Apache-3-Pro" target="_blank" rel="noopener">Official product ↗</a></div>
-    </article>
-    <article class="model-card featured" data-model="4">
-      <div class="badge">VERSATILE</div>
-      <div class="model-image"><img src="apache-4-pro.svg" alt="APACHE 4 Pro"></div>
-      <div class="model-body"><div class="model-label">MULTI-PURPOSE / ADCP + MBES</div><h3>APACHE 4 Pro</h3><p>Platform serbaguna untuk hidrologi, batimetri, ADCP, MBES, side-scan sonar, dan sensor kualitas air.</p>
-      <div class="stats"><span><b>6.5 m/s</b> max speed</span><span><b>50 kg</b> payload</span><span><b>8.6 cm</b> draft</span></div>
-      <a href="https://geospatial.chcnav.com/products/chcnav-apache-4-pro" target="_blank" rel="noopener">Official product ↗</a></div>
-    </article>
-    <article class="model-card" data-model="6">
-      <div class="model-image"><img src="apache-6.svg" alt="APACHE 6"></div>
-      <div class="model-body"><div class="model-label">MULTIBEAM / 3D MAPPING</div><h3>APACHE 6</h3><p>Platform triple-hull untuk survei batimetri resolusi tinggi, positioning objek bawah air, dan dukungan konstruksi lepas pantai.</p>
-      <div class="stats"><span><b>60 kg</b> payload</span><span><b>6 h</b> endurance</span><span><b>15 kg</b> hull</span></div>
-      <a href="https://geospatial.chcnav.com/products/chcnav-Apache-6" target="_blank" rel="noopener">Official product ↗</a></div>
-    </article>
+<section id="resources" class="section resources">
+  <div class="section-head">
+    <div><p class="eyebrow">DOCUMENTATION</p><h2>Manual, datasheet & video</h2></div>
+    <p>Akses sumber resmi CHCNAV untuk dokumentasi teknis dan video pengoperasian.</p>
   </div>
-</section>
-
-<section class="compare section">
-  <div class="section-kicker">QUICK COMPARE</div>
-  <div class="compare-grid">
-    <div><span>APACHE 3 PRO</span><strong>Shallow water</strong><p>Single-beam + compact deployment</p></div>
-    <div><span>APACHE 4 PRO</span><strong>Hydrology + bathymetry</strong><p>ADCP / MBES / modular payload</p></div>
-    <div><span>APACHE 6</span><strong>High-resolution 3D</strong><p>NORBIT MBES + advanced mapping</p></div>
-  </div>
-</section>
-
-<section class="components section" id="components">
-  <div class="section-kicker">PAYLOAD & COMPONENTS</div>
-  <div class="section-head"><h2>Kenali komponen USV.</h2><p>Komponen utama dan opsi payload yang umum digunakan pada konfigurasi Apache. Klik kartu untuk melihat detail singkat.</p></div>
-  <div class="filter"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="navigation">Navigation</button><button class="filter-btn" data-filter="survey">Survey</button><button class="filter-btn" data-filter="platform">Platform</button><button class="filter-btn" data-filter="payload">Payload</button></div>
-  <div class="component-grid">
-<article class="component-card" data-category="navigation" data-title="360° Camera" data-desc="Kamera omnidirectional untuk pemantauan visual dan situational awareness.">
-      <div class="component-icon"><img src="camera-360.svg" alt="360° Camera"></div>
-      <div><span class="cat">NAVIGATION</span><h3>360° Camera</h3><p>Kamera omnidirectional untuk pemantauan visual dan situational awareness.</p></div>
-      <button class="more" aria-label="Lihat detail 360° Camera">+</button>
-    </article>
-<article class="component-card" data-category="navigation" data-title="GNSS Dual Antenna" data-desc="Posisi dan heading berpresisi tinggi untuk navigasi USV.">
-      <div class="component-icon"><img src="gnss-dual.svg" alt="GNSS Dual Antenna"></div>
-      <div><span class="cat">NAVIGATION</span><h3>GNSS Dual Antenna</h3><p>Posisi dan heading berpresisi tinggi untuk navigasi USV.</p></div>
-      <button class="more" aria-label="Lihat detail GNSS Dual Antenna">+</button>
-    </article>
-<article class="component-card" data-category="survey" data-title="Echosounder" data-desc="Single-beam sounder untuk pengukuran kedalaman.">
-      <div class="component-icon"><img src="echosounder.svg" alt="Echosounder"></div>
-      <div><span class="cat">SURVEY</span><h3>Echosounder</h3><p>Single-beam sounder untuk pengukuran kedalaman.</p></div>
-      <button class="more" aria-label="Lihat detail Echosounder">+</button>
-    </article>
-<article class="component-card" data-category="navigation" data-title="Communication Antenna" data-desc="Antena komunikasi untuk koneksi dan pertukaran data.">
-      <div class="component-icon"><img src="communication.svg" alt="Communication Antenna"></div>
-      <div><span class="cat">NAVIGATION</span><h3>Communication Antenna</h3><p>Antena komunikasi untuk koneksi dan pertukaran data.</p></div>
-      <button class="more" aria-label="Lihat detail Communication Antenna">+</button>
-    </article>
-<article class="component-card" data-category="navigation" data-title="Remote Control Antenna" data-desc="Antena komunikasi remote controller.">
-      <div class="component-icon"><img src="remote-antenna.svg" alt="Remote Control Antenna"></div>
-      <div><span class="cat">NAVIGATION</span><h3>Remote Control Antenna</h3><p>Antena komunikasi remote controller.</p></div>
-      <button class="more" aria-label="Lihat detail Remote Control Antenna">+</button>
-    </article>
-<article class="component-card" data-category="navigation" data-title="Avoidance Sensor" data-desc="Sensor/radar untuk mendeteksi hambatan di depan USV.">
-      <div class="component-icon"><img src="avoidance.svg" alt="Avoidance Sensor"></div>
-      <div><span class="cat">NAVIGATION</span><h3>Avoidance Sensor</h3><p>Sensor/radar untuk mendeteksi hambatan di depan USV.</p></div>
-      <button class="more" aria-label="Lihat detail Avoidance Sensor">+</button>
-    </article>
-<article class="component-card" data-category="platform" data-title="Side Float" data-desc="Pelampung samping untuk stabilitas dan dukungan struktur.">
-      <div class="component-icon"><img src="side-float.svg" alt="Side Float"></div>
-      <div><span class="cat">PLATFORM</span><h3>Side Float</h3><p>Pelampung samping untuk stabilitas dan dukungan struktur.</p></div>
-      <button class="more" aria-label="Lihat detail Side Float">+</button>
-    </article>
-<article class="component-card" data-category="platform" data-title="Navigation Light" data-desc="Lampu navigasi untuk status dan visibilitas operasi.">
-      <div class="component-icon"><img src="navigation-light.svg" alt="Navigation Light"></div>
-      <div><span class="cat">PLATFORM</span><h3>Navigation Light</h3><p>Lampu navigasi untuk status dan visibilitas operasi.</p></div>
-      <button class="more" aria-label="Lihat detail Navigation Light">+</button>
-    </article>
-<article class="component-card" data-category="platform" data-title="Propulsion System" data-desc="Sistem motor dan propeller untuk gerak dan manuver.">
-      <div class="component-icon"><img src="propulsion.svg" alt="Propulsion System"></div>
-      <div><span class="cat">PLATFORM</span><h3>Propulsion System</h3><p>Sistem motor dan propeller untuk gerak dan manuver.</p></div>
-      <button class="more" aria-label="Lihat detail Propulsion System">+</button>
-    </article>
-<article class="component-card" data-category="payload" data-title="ADCP" data-desc="Acoustic Doppler Current Profiler untuk profil kecepatan dan debit aliran.">
-      <div class="component-icon"><img src="adcp.svg" alt="ADCP"></div>
-      <div><span class="cat">PAYLOAD</span><h3>ADCP</h3><p>Acoustic Doppler Current Profiler untuk profil kecepatan dan debit aliran.</p></div>
-      <button class="more" aria-label="Lihat detail ADCP">+</button>
-    </article>
-<article class="component-card" data-category="payload" data-title="MBES" data-desc="Multibeam Echosounder untuk pemetaan dasar perairan beresolusi tinggi.">
-      <div class="component-icon"><img src="mbes.svg" alt="MBES"></div>
-      <div><span class="cat">PAYLOAD</span><h3>MBES</h3><p>Multibeam Echosounder untuk pemetaan dasar perairan beresolusi tinggi.</p></div>
-      <button class="more" aria-label="Lihat detail MBES">+</button>
-    </article>
-<article class="component-card" data-category="payload" data-title="Norbit MBES" data-desc="Konfigurasi multibeam Norbit yang dioptimalkan untuk APACHE 6.">
-      <div class="component-icon"><img src="norbit-mbes.svg" alt="Norbit MBES"></div>
-      <div><span class="cat">PAYLOAD</span><h3>Norbit MBES</h3><p>Konfigurasi multibeam Norbit yang dioptimalkan untuk APACHE 6.</p></div>
-      <button class="more" aria-label="Lihat detail Norbit MBES">+</button>
-    </article>
-<article class="component-card" data-category="platform" data-title="Battery Module" data-desc="Modul baterai untuk suplai energi dan endurance misi.">
-      <div class="component-icon"><img src="battery.svg" alt="Battery Module"></div>
-      <div><span class="cat">PLATFORM</span><h3>Battery Module</h3><p>Modul baterai untuk suplai energi dan endurance misi.</p></div>
-      <button class="more" aria-label="Lihat detail Battery Module">+</button>
-    </article>
-<article class="component-card" data-category="platform" data-title="Rubber Bumper" data-desc="Pelindung lambung terhadap benturan.">
-      <div class="component-icon"><img src="rubber-bumper.svg" alt="Rubber Bumper"></div>
-      <div><span class="cat">PLATFORM</span><h3>Rubber Bumper</h3><p>Pelindung lambung terhadap benturan.</p></div>
-      <button class="more" aria-label="Lihat detail Rubber Bumper">+</button>
-    </article>
-<article class="component-card" data-category="payload" data-title="Payload Mount" data-desc="Mounting modular untuk sensor survei tambahan.">
-      <div class="component-icon"><img src="payload-mount.svg" alt="Payload Mount"></div>
-      <div><span class="cat">PAYLOAD</span><h3>Payload Mount</h3><p>Mounting modular untuk sensor survei tambahan.</p></div>
-      <button class="more" aria-label="Lihat detail Payload Mount">+</button>
-    </article>
-<article class="component-card" data-category="platform" data-title="Indication Light" data-desc="Lampu indikator status perangkat/positioning.">
-      <div class="component-icon"><img src="indication-light.svg" alt="Indication Light"></div>
-      <div><span class="cat">PLATFORM</span><h3>Indication Light</h3><p>Lampu indikator status perangkat/positioning.</p></div>
-      <button class="more" aria-label="Lihat detail Indication Light">+</button>
-    </article>
-  </div>
-</section>
-
-<section class="workflow section">
-  <div class="workflow-copy"><div class="section-kicker">SURVEY WORKFLOW</div><h2>Dari deployment sampai data.</h2><p>Hub ini dibuat supaya alur kerja lapangan lebih mudah dipahami: pilih platform → pilih payload → buka manual → akses sumber resmi → lanjut ke video dan dokumentasi.</p></div>
-  <div class="steps">
-    <div><b>01</b><span>Choose USV</span><small>Apache 3 Pro / 4 Pro / 6</small></div>
-    <div><b>02</b><span>Select payload</span><small>SBES / ADCP / MBES / Norbit</small></div>
-    <div><b>03</b><span>Plan mission</span><small>Route, positioning & safety</small></div>
-    <div><b>04</b><span>Collect data</span><small>Bathymetry / flow / 3D mapping</small></div>
-  </div>
-</section>
-
-<section class="resources section" id="resources">
-  <div class="section-kicker">RESOURCES</div>
-  <div class="section-head"><h2>Semua referensi dalam satu tempat.</h2><p>Link berikut diarahkan ke sumber resmi CHCNAV agar dokumentasi tetap mudah diperbarui.</p></div>
   <div class="resource-grid">
-    <a class="resource-card" href="https://support.chcnav.com/portal/en/kb/marine/usv/apache-3-pro" target="_blank" rel="noopener"><span class="resource-icon">▣</span><div><b>APACHE 3 Pro</b><small>User manual, FAQ & training</small></div><i>↗</i></a>
-    <a class="resource-card" href="https://support.chcnav.com/portal/en/kb/articles/chcnav-apache-4-pro-user-manual" target="_blank" rel="noopener"><span class="resource-icon">▣</span><div><b>APACHE 4 Pro Manual</b><small>Official user manual</small></div><i>↗</i></a>
-    <a class="resource-card" href="https://support.chcnav.com/portal/en/kb/marine/usv" target="_blank" rel="noopener"><span class="resource-icon">▣</span><div><b>CHCNAV USV Knowledge Base</b><small>Manual & technical support</small></div><i>↗</i></a>
-    <a class="resource-card" href="https://www.chcnav.com/products" target="_blank" rel="noopener"><span class="resource-icon">◉</span><div><b>CHCNAV Official Website</b><small>Products & hydrographic sensors</small></div><i>↗</i></a>
-    <a class="resource-card" href="https://support.chcnav.com/portal/en/kb/articles/apache-3-pro" target="_blank" rel="noopener"><span class="resource-icon">▶</span><div><b>APACHE 3 Pro Videos</b><small>Promotion & product videos</small></div><i>↗</i></a>
-    <a class="resource-card" href="https://geospatial.chcnav.com/solutions/marine-surveying" target="_blank" rel="noopener"><span class="resource-icon">⌁</span><div><b>Marine Surveying</b><small>USV + hydrographic sensors</small></div><i>↗</i></a>
+    <a class="resource" href="https://support.chcnav.com/portal/en/kb/articles/apache-3-pro-user-manual" target="_blank"><span class="resource-icon">PDF</span><div><small>MANUAL</small><h3>APACHE 3 Pro User Manual</h3><p>CHCNAV Support</p></div><b>↗</b></a>
+    <a class="resource" href="https://geospatial.chcnav.com/products/chcnav-apache-4-pro" target="_blank"><span class="resource-icon">DS</span><div><small>DATASHEET</small><h3>APACHE 4 Pro</h3><p>Specifications & downloads</p></div><b>↗</b></a>
+    <a class="resource" href="https://geospatial.chcnav.com/products/chcnav-Apache-6" target="_blank"><span class="resource-icon">DS</span><div><small>DATASHEET</small><h3>APACHE 6</h3><p>Specifications & downloads</p></div><b>↗</b></a>
+    <a class="resource" href="https://support.chcnav.com/portal/en/kb/articles/apache-3-pro" target="_blank"><span class="resource-icon play">▶</span><div><small>VIDEO</small><h3>APACHE 3 Pro Promotion Videos</h3><p>CHCNAV Support</p></div><b>↗</b></a>
+    <a class="resource" href="https://support.chcnav.com/portal/en/kb/articles/rs1200-600-setup-and-initialization" target="_blank"><span class="resource-icon play">▶</span><div><small>VIDEO</small><h3>RiverStar 1200/600 Setup</h3><p>CHCNAV Support</p></div><b>↗</b></a>
+    <a class="resource" href="https://www.chcnav.com/products" target="_blank"><span class="resource-icon">WEB</span><div><small>OFFICIAL</small><h3>CHCNAV Product Portfolio</h3><p>Official website</p></div><b>↗</b></a>
   </div>
 </section>
 
-<section class="source-note">
-  <div><span class="pulse"></span><b>Official-source mode</b><p>Spesifikasi utama di halaman ini diringkas dari halaman produk CHCNAV dan knowledge base resminya.</p></div>
-  <a href="https://geospatial.chcnav.com/products" target="_blank" rel="noopener">Open CHCNAV ↗</a>
+<section id="contact" class="contact">
+  <div>
+    <p class="eyebrow">READY TO SURVEY?</p>
+    <h2>Butuh konfigurasi<br>CHCNAV APACHE?</h2>
+    <p>Konsultasikan kebutuhan USV, payload, ADCP, MBES, atau workflow hydrographic survey Anda dengan PT Hidronav Tehnikatama.</p>
+  </div>
+  <div class="contact-card">
+    <span>AUTHORIZED DISTRIBUTOR · INDONESIA</span>
+    <h3>PT Hidronav Tehnikatama</h3>
+    <p>CHCNAV Marine USV & ADCP</p>
+    <div class="contact-actions">
+      <a class="btn primary" href="https://hidronav.co.id/contact-us/" target="_blank">Hubungi Hidronav ↗</a>
+      <a class="btn light" href="https://hidronav.co.id/" target="_blank">Website Hidronav</a>
+    </div>
+    <small>Jl. Pondok Bambu Batas No.10, Pondok Bambu, Duren Sawit, Jakarta 13430</small>
+  </div>
 </section>
+
+<footer>
+  <div><b>USV Surveying Hub</b><span>CHCNAV APACHE catalog</span></div>
+  <p>Product information: CHCNAV. Product photographs are sourced from manufacturer/distributor or technical publication pages and are used here as reference links. Verify current specifications with CHCNAV/Hidronav before procurement.</p>
+</footer>
 </main>
-
-<footer><div class="brand"><span class="brand-mark">USV</span><span>Surveying Hub</span></div><span>Informational hub • CHCNAV Apache series</span></footer>
-
-<div class="modal" id="modal" aria-hidden="true"><div class="modal-box"><button class="close">×</button><span class="cat" id="modalCat"></span><h2 id="modalTitle"></h2><p id="modalDesc"></p><div class="modal-tip">Gunakan komponen ini sesuai konfigurasi platform dan dokumentasi resmi CHCNAV.</div></div></div>
 <script src="script.js"></script>
 </body>
 </html>

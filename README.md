@@ -1,20 +1,20 @@
-# USV Surveying Hub — v2
+# USV Surveying Hub — v3
 
-Static GitHub Pages website for CHCNAV APACHE 3 Pro, APACHE 4 Pro and APACHE 6.
+Versi katalog statis untuk GitHub Pages.
 
-## Upload
-Keep this structure in the repository root:
+## Isi
+- APACHE 3 Pro, APACHE 4 Pro, APACHE 6
+- Foto produk riil dari sumber web
+- Components: D270, RS3600D, NORBIT WBMS/iWBMS
+- Manual & video
+- CTA Hubungi PT Hidronav Tehnikatama
 
-- index.html
-- styles.css
-- script.js
-- assets/models/*.svg
-- assets/components/*.svg
+## Upload ke GitHub Pages
+1. Ekstrak ZIP.
+2. Upload `index.html`, `styles.css`, `script.js` ke repository.
+3. Commit changes.
+4. Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+5. Buka URL GitHub Pages kamu.
 
-## Notes
-The model and component graphics in this starter package are clean vector illustrations so the site works offline. Replace the SVG files in `assets/models/` with your own official/product photographs if you want the exact equipment photos.
-
-Product facts and resource links are based on CHCNAV's official product/support pages. Always verify the latest datasheet before technical use.
-
-## GitHub Pages
-Settings → Pages → Deploy from a branch → main → /(root)
+Catatan:
+Foto pada katalog menggunakan URL gambar publik dari halaman/sumber produk. Jika ingin website tetap berjalan tanpa internet atau tanpa ketergantungan hotlink, simpan foto-foto tersebut ke folder `assets/` lalu ubah `src` pada `index.html`.

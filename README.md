@@ -1,20 +1,39 @@
-# USV Surveying Hub — v2
+# USV Surveying Hub — CHCNAV APACHE
 
-Static GitHub Pages website for CHCNAV APACHE 3 Pro, APACHE 4 Pro and APACHE 6.
+Static website untuk GitHub Pages.
 
-## Upload
-Keep this structure in the repository root:
+## Isi
+- APACHE 3 Pro
+- APACHE 4 Pro
+- APACHE 6
+- Components & payload
+- ADCP / MBES / NORBIT MBES
+- Manual, datasheet, video
+- CTA Hubungi PT Hidronav Tehnikatama
 
-- index.html
-- styles.css
-- script.js
-- assets/models/*.svg
-- assets/components/*.svg
+## Upload ke GitHub Pages
+1. Extract ZIP.
+2. Upload `index.html`, `styles.css`, `script.js`, dan folder/file lain ke root repository.
+3. Commit changes.
+4. GitHub → Settings → Pages.
+5. Source: Deploy from a branch → `main` → `/ (root)` → Save.
+6. Tunggu deployment selesai.
 
-## Notes
-The model and component graphics in this starter package are clean vector illustrations so the site works offline. Replace the SVG files in `assets/models/` with your own official/product photographs if you want the exact equipment photos.
+## Catatan foto
+Versi ini memakai foto produk yang tersedia di web agar website langsung terlihat seperti katalog produk nyata. Beberapa foto berasal dari halaman distributor/technical publication; tautan sumber produk resmi CHCNAV/NORBIT tetap disediakan pada kartu produk.
 
-Product facts and resource links are based on CHCNAV's official product/support pages. Always verify the latest datasheet before technical use.
+## Sumber utama
+CHCNAV:
+https://geospatial.chcnav.com/products
+https://geospatial.chcnav.com/products/chcnav-Apache-3-Pro
+https://geospatial.chcnav.com/products/chcnav-apache-4-pro
+https://geospatial.chcnav.com/products/chcnav-Apache-6
+https://geospatial.chcnav.com/products/chcnav-RS600-1200-ADCP
+https://support.chcnav.com/portal/en/kb/marine/usv
 
-## GitHub Pages
-Settings → Pages → Deploy from a branch → main → /(root)
+Hidronav:
+https://hidronav.co.id/
+https://hidronav.co.id/contact-us/
+
+NORBIT:
+https://norbit.com/
